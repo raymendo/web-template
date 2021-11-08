@@ -1,0 +1,54 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the widgets
+// -----------------------------------------------------------------------------
+/// @author Robert Bright
+
+.widgets__filter{
+    height: 1.4rem;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.widgets__options{
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+
+.widgets__search{
+    display: flex;
+    align-items: center;
+    width:16rem;
+    height: 2rem;
+    border: solid 1px $border-color;
+    background-color: $surface-color;
+    border-radius: $s-radius;
+    font-size: $xs-text-size;
+    margin-right: 1rem;
+    padding: 0  0.5rem;
+}
+
+.widgets__button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 8rem;
+    font-size: $m-text-size;
+    border-color: $component-color;
+    border-radius: $s-radius;
+    background-color:  $component-color;
+    color: $primaryText-color;
+    text-align: center;
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 15px 0px;
+    cursor: pointer;
+}
+
+.widgets__devices{
+    @extend .input-select;
+    width: 60%;
+}

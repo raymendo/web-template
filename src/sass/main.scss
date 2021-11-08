@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+// 1. Configuration and helpers
+@import
+  'abstracts/variables',
+  'abstracts/mixin';
+
+// 2. Vendors
+@import
+'vendors/include-media',
+'vendors/_normalize';
+
+// 3. Base stuff
+@import
+  'base/base',
+  'base/fonts',
+  'base/typography';
+
+// 4. Layout-related sections
+@import
+  'layout/footer',
+  'layout/grid',
+  'layout/flex',
+  'layout/banner',
+  'layout/main';
+
+// 5. Components
+@import
+  'components/inputs',
+  'components/buttons',
+  'components/checkboxs',
+  'components/tables.scss',
+  'components/icons.scss',
+  'components/switches.scss',
+  'components/widgets.scss',
+  'components/datacards.scss';
+
+// 6. Page-specific styles
+@import
+  'pages/login',
+  'pages/userPage.scss';
+
+

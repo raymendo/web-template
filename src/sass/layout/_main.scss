@@ -1,0 +1,20 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the main of the site/application.
+// -----------------------------------------------------------------------------
+/// @author MASAAF Ali
+
+
+/**
+* Login page main layout
+*/ 
+
+.login-box__main{
+    align-self: start;
+    margin-right: $layout-right-margin;
+    margin-left: $layout-left-margin;
+    height: 100%;
+    @include media('>=desktop') {
+        margin-right: $desktop-layout-right-margin;
+        margin-left: $desktop-layout-left-margin;
+    }
+}

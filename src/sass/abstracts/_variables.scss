@@ -1,0 +1,160 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+/// @author MASAAF Ali
+
+
+
+/// Regular font family
+/// @type List
+$poppins-extraLight: 'Poppin-exlight', 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$poppins-light: 'Popins-light', 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$poppins-Thin: 'Poppin-thin', 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$poppins: 'font-poppins', 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$poppins-sbold: 'Poppin-sbold', 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$poppins-bold: 'Poppin-bold', 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$poppins-regular: 'Poppins-regular', 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+
+
+/// Background color
+/// @type Color
+$background-color: #1D1C2C !default;
+
+/// Sidebare color
+/// @type Color
+$sidebare-color: #262535 !default;
+
+/// Topbar color
+/// @type Color
+$sidebare-color: #29282D !default;
+
+/// Surface color
+/// @type Color
+$surface-color: #1B1C20 !default;
+
+/// Border color
+/// @type Color
+$border-color: #424451 !default;
+
+/// Icons color
+/// @type Color
+$icons-color: #706F7F !default;
+
+/// Gradiant color
+/// @type Color
+$gradiant-color: linear-gradient(to bottom, #005dd3, #0054ba, #004aa2, #00418a, #033773);
+
+/// Selected Item
+/// @type Color
+$component-color: #006FFD !default;
+
+/// Success collor
+/// @type Color
+$success-color: #28D360 !default;
+
+/// Notifications and alert
+/// @type Color
+$notification-color: #E1A75B !default;
+
+/// Failure
+/// @type Color
+$failure-color: #D3282850 !default;
+
+/// Primary text color
+/// @type Color
+$primaryText-color: #FFFFFF !default;
+
+/// Secandry text color
+/// @type Color
+$secandryText-color: #C4C4C4 !default;
+
+/// Box shadow color
+/// @type Color
+$box-shadow: 0 0 20px rgba(3, 3, 3, 0.897) !default;
+
+
+
+/// Extra extra small text size
+/// @type Length
+$xxs-text-size: 0.66rem !default;
+
+/// Extra mall text size
+/// @type Length
+$xs-text-size: 0.8rem !default;
+
+/// Small text size
+/// @type Length
+$s-text-size: 1rem !default;
+
+/// Medium text size
+/// @type Length
+$m-text-size: 1rem !default;
+
+/// Big text size
+/// @type Length
+$l-text-size: 1.25rem !default;
+
+/// Extra big text size
+/// @type Length
+$xl-text-size: 1.6875rem !default;
+
+/// Extra extra big text size
+/// @type Length
+$xxl-text-size: 2rem !default;
+
+
+
+/// Small line hieght
+/// @type Length
+$s-line-height: 0.4rem !default;
+
+/// Medium line hieght
+/// @type Length
+$m-line-height: 0.5rem !default;
+
+/// Large line hieght
+/// @type Length
+$l-line-height: 0.6rem !default;
+
+/// Extra large line hieght
+/// @type Length
+$xl-line-height: 0.7rem !default;
+
+/// Extra extra line hieght
+/// @type Length
+$xxl-line-height: 0.8rem !default;
+
+
+
+/// Layout left margin
+/// @type Length
+$layout-left-margin: 6vw !default;
+
+/// Layout right margin
+/// @type Length
+$layout-right-margin: 6vw !default;
+
+/// Layout desktop left margin
+/// @type Length
+$desktop-layout-left-margin: 2.5vw !default;
+
+/// Layout desktop right margin
+/// @type Length
+$desktop-layout-right-margin: 2.5vw !default;
+
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+///Border reduice
+///@type Angle
+$s-radius: 4px;
+
+///Border reduice
+///@type Angle
+$m-radius: 6px;
+
+///Border reduice
+///@type Angle
+$l-radius: 8px;

@@ -1,0 +1,70 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the checkboxs
+// -----------------------------------------------------------------------------
+/// @author MASAAF Ali
+
+
+
+.checkbox {
+    display: inline-block;
+
+    /**
+     *Hide the checkbox
+     */
+
+    input[type=checkbox]{
+        height: 0;
+        width: 0;
+        visibility: hidden;
+    }
+
+
+    /**
+     *Creat a custum checkbox frame -> ◻
+     */
+
+    label {
+        display:  inline-block;
+        cursor: pointer;
+        width: 1rem;
+        height: 1rem;
+        border: 1px solid $border-color;
+        border-radius: $s-radius;
+        position: relative;
+    }
+
+
+    /**
+     *Creat a custum checkbox marke -> ✔
+     */
+
+    label:after{
+        display: none;
+        content: "";
+        position: absolute;
+        top: 0.1rem;
+        left: 0.25rem;
+        width: 5px;
+        height: 10px;
+        border: solid white;
+        border-width: 0 2px 2px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    
+    /**
+     * Display the checkmark on checking the checkbox -> ☑ 
+     */
+
+    input:checked + label:after{
+        display: block;
+    }
+}
+
+.checkbox-default{
+
+}
+
+

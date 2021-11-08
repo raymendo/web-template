@@ -1,0 +1,58 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the tables
+// -----------------------------------------------------------------------------
+/// @author MASAAF Ali
+
+
+
+.table-default{
+    width: 100%;
+    border-collapse: collapse;
+    th , td{
+        margin-top: 1rem;
+        border-top: 1px solid $border-color;  
+        text-align: left;
+        font-size: $m-text-size;
+        padding: 0.2rem 0rem;
+    }
+    th{
+        border-top: 2px solid $border-color; 
+    }
+}
+
+[aria-sort] {
+    cursor: pointer;
+    width: 100%;
+}
+
+th [aria-sort] { 
+	padding-right: 18px;
+	position: relative;
+    z-index: -1;
+}
+
+[aria-sort]::before,
+[aria-sort]::after {
+	border: 4px solid transparent;
+	content: "";
+	display: block;
+	height: 0;
+	right: 5px;
+	top: 50%;
+	position: absolute;
+	width: 0;
+}
+
+[aria-sort=none]::before, [aria-sort=descending]::before {
+	border-bottom-color: $secandryText-color;
+	margin-top: -9px;
+}
+
+[aria-sort=none]::after, [aria-sort=ascending]::after {
+	border-top-color: $secandryText-color;
+	margin-top: 1px;
+}
+
+.status-failure{
+    background-color: $failure-color;
+}

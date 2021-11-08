@@ -1,0 +1,15 @@
+// -----------------------------------------------------------------------------
+// This file contains the basic typography styles.
+// -----------------------------------------------------------------------------
+/// @author MASAAF Ali
+
+
+
+/**
+ * Basic typography style for copy text
+ */
+ 
+body {
+  color: $primaryText-color;
+  font: normal 125% / 1 $poppins;
+}

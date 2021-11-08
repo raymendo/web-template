@@ -1,0 +1,113 @@
+html {
+    
+  font-family:monospace;
+  font-size: 25px;
+  background: #1D1C2C;
+  margin: 0px;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+ }
+.topbar {
+    margin-top: 0px;
+    
+    padding-right: 10px;
+    background-color: #29282D;
+    overflow: hidden;
+    height: 43px;
+
+  }
+  .topbar a {
+    float: right;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-top: 4px;
+    padding: 4px;
+}
+
+.topbar input[type=text] {
+    color: #d3d3d3;
+    height: 4hv ;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 1px solid #425551;
+    border-radius: 4px;
+    background-color: #1B1C20;
+    float: right;
+    font-size: 16px;
+  }
+
+.sidebar {
+    padding-left: 0px;
+  margin-left: 0px;
+  position: fixed;
+  width: 200px;
+  height: 100vh;
+  background: #262535;
+  font-size: 15px;
+}
+
+nav {
+  text-align: left;
+  font-weight: bolder;
+}
+
+nav ul {
+    margin-top: 70px;
+    padding-left: 0px;
+    list-style: none;
+}
+nav ul li {
+    vertical-align: text-top;
+  text-align: left;
+}
+nav ul li a {
+    font-size: 16px;
+  line-height: 45px;
+  padding-left: 10px;
+  text-decoration: none;
+  color: #C4C4C4;
+  display: block;
+  
+  transition: all ease-out 70ms;
+  
+}
+nav ul li.active a {
+  color: white;
+  background-color: #006FFD;
+  
+}  
+
+div .logo {
+    margin-left: 9px;
+  }   
+
+nav a:hover
+nav ul li:not(.active)::after {
+  opacity: 1;
+  
+}
+nav ul li:not(.active):hover a {
+  /* color: #006FFD; */
+  filter: invert(29%) sepia(95%) saturate(3662%) hue-rotate(206deg) brightness(102%) contrast(107%);
+  
+}
+
+
+
+.topbar :hover
+.topbar a:not(.active)::after {
+  opacity: 1;
+  
+}
+.topbar a:not(.active):hover a {
+  /* color: #006FFD; */
+  filter: invert(29%) sepia(95%) saturate(3662%) hue-rotate(206deg) brightness(102%) contrast(107%);
+  
+}

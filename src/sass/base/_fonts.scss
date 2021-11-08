@@ -1,0 +1,22 @@
+// -----------------------------------------------------------------------------
+// This file contains all @font-face declarations.
+// -----------------------------------------------------------------------------
+/// @author MASAAF Ali
+
+
+
+$fonts:
+  Poppins "./../../fonts/font-poppins/Poppins-Light.otf",
+  Popins-light "./../../fonts/font-poppins/Poppins-Light.otf",
+  Poppin-sbold "./../../fonts/font-poppins/Poppins-SemiBold.otf",
+  Poppin-bold "./../../fonts/font-poppins/Poppins-Bold.otf",
+  Poppin-regular "./../../fonts/font-poppins/Poppins-Regular.otf",
+  Poppin-exlight "./../../fonts/font-poppins/Poppins-ExtraLight.otf",
+  Poppin-thin "./../../fonts/font-poppins/Poppins-Thin.otf";
+
+@each $name, $url in $fonts {
+  @font-face {
+    font-family: $name;
+    src: url($url) format("truetype");
+  }
+}

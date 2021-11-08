@@ -1,0 +1,50 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the switches
+// -----------------------------------------------------------------------------
+/// @author MASAAF Ali
+
+
+
+.switch-state{
+    input[type=checkbox]{
+        height: 0;
+        width: 0;
+        visibility: hidden;
+    }
+    
+    label {
+        cursor: pointer;
+        text-indent: -9999px;
+        width: 2.5rem;
+        height: 1.1rem;
+        background: $failure-color;
+        display: block;
+        border-radius: 100px;
+        position: relative;
+    }
+    
+    label:after {
+        content: '';
+        position: absolute;
+        top: 1px;
+        left: 0px;
+        width: 1rem;
+        height: 1rem;
+        background:#fff;
+        border-radius: 90px;
+        transition: 0.3s;
+    }
+    
+    input:checked + label {
+        background: $success-color;
+    }
+    
+    input:checked + label:after {
+        left: calc(100%);
+        transform: translateX(-100%);
+    }
+    
+    label:active:after {
+        width: 1.5rem;
+    }
+}
